@@ -178,6 +178,7 @@ function App() {
     }
     
     fetchFilms(DEFAULT_URL, params);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPage, sort, itemsPerPage]);
 
   const handlePageChange = (selectedObject: any) => {
